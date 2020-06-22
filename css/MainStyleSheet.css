@@ -1,0 +1,490 @@
+
+/*
+   grid
+*/
+*:before,
+*:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box
+    box-sizing : border-box
+}
+
+.container{
+    margin:0 auto;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+
+.address {
+    color:#075288;
+    text-align: right; 
+    font-weight: 600;
+  }
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  }
+header> nav > a{
+    color:#ffffff;
+    font-size: 25px;
+    margin: 2px;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+header>nav{
+    text-align: right;
+}
+.logo{
+    float:left;
+    height: 90px;
+    width: 90px;
+}
+.name{
+    display: inline;
+    color: #ffffff;
+    font-weight: bolder ;
+}
+header{
+    background-color: rgba(106, 241, 140, 0.863);    
+}
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix:after{
+    clear:both;
+    *zoom: 1;
+}
+
+/*
+==============================================================
+FOOTER
+*/
+
+footer{
+    background-color:rgba(106, 241, 140, 0.863);
+    height:150px;
+    margin:20px ;
+    box-sizing: border-box;
+}
+ footer>small{
+     font-size: 20px;
+     color: #005792;
+ }
+.box{
+    box-sizing: border-box;
+    height: 80px;
+    weight: 80px;
+}
+.mainlogo {
+    margin: 2px;
+    padding: 2px;
+    
+    float:left ;
+    height: 80px;
+    width: 80px;
+}
+footer>div> nav > a{
+    color:#ffffff;
+    font-size: 25px;
+    margin: 2px;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+footer>div>nav>p{
+    padding-left:5px;
+}
+
+.logo {
+    margin: 2px;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+}
+h5{
+    color: rgb(43, 43, 44);
+}
+footer>p{
+    padding-left:5px;
+    width: fit-content;
+}
+footer>div>nav>h4{
+    color: #005792;
+    font-weight: 900;
+    font-size: 25px;
+}
+/*
+========================
+*/
+.foot{
+        margin-left: 40%;
+        float: right;
+        background-color:#ffffff;
+        border-radius: 15px;
+        
+}
+
+
+/*
+ grids
+
+
+*/
+
+.parent{
+    border-style: solid;
+    border-color: rgb(87, 216, 143);
+    border-left-width: thin;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:#367588;
+    padding-left: 30xp;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+
+.about{
+    display: inline-block;
+    width: 77%;
+    border-style: outset;
+    border-color: rgb(87, 216, 143);
+    height: 270px;
+    background-color:#367588;
+    color: white;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+
+.news{
+    float: right;
+    display: inline-block;
+    width: 20%;
+    border-style: outset;
+    border-color: rgb(87, 216, 143);
+    margin-bottom:20px;
+    height: inherit;
+    background:#FFA500;
+    
+}
+.bullets{
+    color: white;
+    font-weight: 500;
+}
+.newshead{
+    font-size: 150%;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color:#ffffff;
+    padding-left:35px;
+}
+/*
+
+Principal section
+*/
+.princiImage{
+    float: right;
+    margin-right: 30%;
+    height:250px;
+    width: 250px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: darkgrey;
+}
+
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    width:max-content;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+    padding-left: 30px;
+}
+
+.content-1{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    width: 40%;
+    padding-left: 30px;  
+}
+
+.courses1-3{
+    display: inline-block;
+    border-style: groove ;
+    border-color: rgb(230, 220, 173);
+    height:400px;
+    width:32%;
+    background-color: rgb(184, 228, 243);
+    padding-right: 2px;
+    border-radius: 30px;
+}
+.courses3-3{
+    display: inline-block;
+    border-style: groove ;
+    border-color: rgb(230, 220, 173);
+    height:400px;
+    width:32%;
+    background-color: rgb(184, 228, 243);
+    padding-left: 30px;
+    border-radius: 30px;
+}
+/*
+BUTTONS
+*/
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing : .5px;
+  text-transform : uppercase;
+    background : #FFA500;
+    
+}
+
+.btn-alt {
+  border: 1px solid #FFA500;;
+	padding: 10px 30px;
+}
+.knowmorebtn{
+    color: #FFA500;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+/*courses teaser*/
+
+.name2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #FFA500;
+    color:#ffffff;
+    text-align: center;   
+ }
+
+.row{
+    background: #FFA500;
+    min-width: 960px;
+    height: fit-content;
+}
+
+.teaser{
+    box-sizing: border-box;
+    width: 33%;
+    height: 500px;
+    display: inline-block;
+    margin-right: 2px;
+}
+.course-title{
+    text-align: center;
+    color: #FFA500;
+    background:#ffffff;
+    font-size: 200%;
+    font-weight: 600;  
+}
+.course-teaser{
+    font-size: 120%;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-radius: 5px; 
+    padding: 2px;
+}
+
+/*feature*/
+.featnum{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+/*
+courses
+*/
+.banner{
+    border:rgba(106, 241, 140, 0.863);
+    width: 100%;
+    margin-top: 5px;
+    border-style: outset;
+    box-sizing: border-box;
+}
+.bg-1{
+    background-image: url(https://vvce.ac.in/wp-content/uploads/2019/12/course-cse.png);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+}
+.bg-2{
+    background-image: url(https://nhcleancities.org/wp-content/uploads/2017/08/energy.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    opacity:80%;
+}
+.bg-2{
+    background-image: url(https://nhcleancities.org/wp-content/uploads/2017/08/energy.jpg);
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+}
+
+.bg-3{
+    background-image: url(https://previews.123rf.com/images/necnec/necnec1701/necnec170100020/70662053-mechanical-engineering-drawing-engineering-drawing-background-vector-illustration-.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    opacity:80%;
+}
+.coursename{
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 900; 
+    font-size: 300%;
+    text-align: center;
+    padding-top:120px;
+    color: #ffffff;
+}
+.subtitle{
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    text-align: center;
+    color: #ffffff;
+}
+.intro-heading {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 900;
+}
+.intro-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.deptinfo{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/*
+Contact us
+*/
+
+.form{
+    margin-left:30%;
+    width: 40%;
+}
+#email{
+    width: 70%;
+}
+
+#message{
+    text-align: start;
+    width: 70%;
+    height:80px;
+}
+
+.contactbar{
+    box-sizing: border-box;
+    
+}
+#cb1{
+    margin-top:20px;
+    background-color:#005792;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cb2{
+    margin-top: 20px;
+    background-color:#126DAC;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cb3{
+    margin-top: 20px;
+    background-color:#3F99DC;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#submitbtn{
+    margin-left: 36px;
+}
+
+/*
+Registration Portal
+*/
+#registrationtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #005792;
+    text-align: center;
+}
+.regform{
+    display: inline-block;
+    
+    margin-left: 30%;
+}
+.guidelines{
+    
+    box-sizing: border-box;
+    width:36%;
+    float: right;
+    border: #3F99DC;
+            
+}
+#guides{
+    font-size: 120%;
+}
+.formbox{
+    border: 0;
+    text-align: left;
+}
+.guide-title{
+    background-color: #FFA500;
+    color: #ffffff;
+    text-align: center;
+    font-size: 180%;
+}
+
+/*student's club*/
+
+.clublogo{
+    height:80px;
+    width: 80px;
+}
+a:hover {
+    color: #126DAC;
+}
